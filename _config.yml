@@ -1,9 +1,7 @@
 # Site settings
-title: NK's blog
-email: 
+title: "NK's blog"
+email: "nkarani31@gmail.org"
 description: "Notes of things I cannot remember."
-baseurl: "website/"
-url: "https://neeravkarani.github.io/website/"
 twitter_username: nirav_karani
 github_username:  neeravkarani
 
@@ -14,5 +12,7 @@ permalink: pretty
 highlighter: rouge
 kramdown:
   input: GFM
-  auto_ids: true
+  math_engine: mathjax
   syntax_highlighter: rouge
+  math_engine_opts:
+    preview: true
