@@ -2,9 +2,9 @@
 title: NK's blog
 email: 
 description: "Notes of things I cannot remember."
-baseurl: ""
+baseurl: "website/"
 url: "https://neeravkarani.github.io/website/"
-twitter_username: niravkarani
+twitter_username: nirav_karani
 github_username:  neeravkarani
 
 # Build settings
