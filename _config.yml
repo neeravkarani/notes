@@ -5,4 +5,11 @@ email: "nkarani31@gmail.org"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  math_engine_opts:
+    preview: true
+
 theme: minima
