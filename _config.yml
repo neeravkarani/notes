@@ -12,4 +12,4 @@ kramdown:
   math_engine_opts:
     preview: true
 
-theme: minima
+theme: jekyll-theme-minimal
