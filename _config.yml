@@ -4,7 +4,7 @@ description: "NK's blog"
 email: "nkarani31@gmail.org"
 
 # Build settings
-markdown: kramdown
+markdown: maruku
 kramdown:
   input: GFM
   math_engine: mathjax
