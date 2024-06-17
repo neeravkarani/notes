@@ -4,20 +4,10 @@
   <meta charset="UTF-8">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        tags: 'ams'  // Auto-numbering of equations using AMS style
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+  {% if page.use_math %}
+    {% include mathjax_support %}
+  {% endif %}
 </head>
 <body>
   <header>
