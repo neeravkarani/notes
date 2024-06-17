@@ -1,2 +1,10 @@
-description: "This research project develops training materials for reseachers wanting to learn to build project websites in GitHub with GitHub Pages."
+# Site settings
+title: "NK's blog"
+description: "NK's blog"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://neeravkarani.github.io" # the base hostname & protocol for your site
 email: "nkarani31@gmail.org"
+
+# Build settings
+markdown: kramdown
+theme: minima
