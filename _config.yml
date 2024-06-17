@@ -1,8 +1,6 @@
 # Site settings
 title: "NK's blog"
 description: "NK's blog"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://neeravkarani.github.io" # the base hostname & protocol for your site
 email: "nkarani31@gmail.org"
 
 # Build settings
