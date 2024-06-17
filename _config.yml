@@ -1,15 +1,18 @@
 # Site settings
-title: "NK's blog"
-description: "NK's blog"
-email: "nkarani31@gmail.org"
+title: NK's blog
+email: 
+description: "Notes of things I cannot remember."
+baseurl: ""
+url: "https://neeravkarani.github.io/website/"
+twitter_username: niravkarani
+github_username:  neeravkarani
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
 kramdown:
   input: GFM
-  math_engine: mathjax
+  auto_ids: true
   syntax_highlighter: rouge
-  math_engine_opts:
-    preview: true
-
-theme: minima
