@@ -1,10 +1,8 @@
-# Building Websites in GitHub
+---
+layout: default
+title: Home
+---
 
-{% include navigation.html %}
+# Welcome to My Website
 
-## Description
-{{ site.description }}
-
-More details about the project are available from the [About page](about).
-
-Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
+This is the homepage of my website. Check out my [About]({{ '/about/' | relative_url }}) page or read my [Blog]({{ '/blog/' | relative_url }}).
