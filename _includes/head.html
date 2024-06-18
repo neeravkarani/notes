@@ -1,21 +1,25 @@
-{% include base_path %}
+<!-- Meta tags, CSS links, and other head elements can go here -->
+<!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
 
-<meta charset="utf-8">
-
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!-- Configure MathJax -->
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    },
+    svg: {
+      fontCache: 'global'
+    },
+    TeX: {
+      equationNumbers: { autoNumber: "all" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"]
+    }
+  };
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
+<!-- Include MathJax -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
