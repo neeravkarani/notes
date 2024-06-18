@@ -13,7 +13,7 @@ Linear algebra is the study of vectors and matrices.
 
 A vector $\boldsymbol{x} \in \mathcal{R}^n$ is a $n$-tuple of real numbers.
 
-$ \begin{equation} \boldsymbol{x} = \begin{bmatrix} {x_{1} \\ x_{2} \\ \vdots \\ x_{n}} \end{bmatrix} \end{equation} $
+$$ \begin{equation} \boldsymbol{x} = \begin{bmatrix} {x_{1} \\ x_{2} \\ \vdots \\ x_{n}} \end{bmatrix} \end{equation} $$
 
 The operations we can perform on vectors are addition, subtraction, scaling, dot product, cross product, outer product, norm and projection.
 
