@@ -16,3 +16,5 @@ kramdown:
   syntax_highlighter: rouge
   math_engine_opts:
     preview: true
+
+theme: jekyll-theme-minimal
