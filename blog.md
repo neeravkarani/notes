@@ -48,6 +48,7 @@ Welcome! Here a list of existing and planned blog posts.
 
 ## Programming
  - [Data structures and algorithms]({{ site.baseurl }}/notes/programming/dsa.html)
+ - [Data structures and algorithms]({{ site.baseurl }}{% link _posts/programming/2024-06-17-dsa.md %})
  - Python tips and tricks
  - PyTorch basics
  - Git basics
