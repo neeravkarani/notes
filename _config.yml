@@ -17,4 +17,6 @@ kramdown:
   math_engine_opts:
     preview: true
 
-theme: jekyll-theme-modernist
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-modernist
+theme: jekyll-theme-primer
