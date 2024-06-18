@@ -70,6 +70,7 @@ Welcome! Here a list of existing and planned notes.
 
 ## Misc
  - Useful terminology
+ - [Trying things]({{ site.baseurl }}{% link _posts/misc/2024-06-18-trying-things.md %})
  - [Interesting places on the internet]({{ site.baseurl }}{% link _posts/misc/2024-06-18-interesting-places.md %})
 
 <br>
