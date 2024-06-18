@@ -102,7 +102,7 @@ li {font-size: 12pt;}
 
 .jumbotron {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 10% 10%;
     padding: 40px 4px 0px 4px;
     background-color: #bbffb5;
 }
