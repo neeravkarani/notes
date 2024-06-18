@@ -8,8 +8,6 @@ Welcome! Here a list of existing and planned blog posts.
 
 ## Math
 
-- [Post 1]({{ site.baseurl }}{% link _posts/math/2024-06-06-post1.md %})
-
 ### Linear algebra
 - [General Notes]({{ site.baseurl }}{% link _posts/math/2024-06-17-linear-algebra.md %})
 - Matrix calculus
@@ -40,7 +38,7 @@ Welcome! Here a list of existing and planned blog posts.
 ### Generative models
  - Variational autoencoders
  - Generative adversarial networks
- - Diffusion models 
+ - [Diffusion models]({{ site.baseurl }}{% link _posts/ml/2024-06-18-diffusion-models.md %}) 
 
 ### Other topics
  - Sampling methods
@@ -58,11 +56,11 @@ Welcome! Here a list of existing and planned blog posts.
 
 ## Programming
  - [Data structures and algorithms]({{ site.baseurl }}{% link _posts/programming/2024-06-17-dsa.md %})
- - Python tips and tricks
- - PyTorch basics
+ - [Python tips and tricks]({{ site.baseurl }}{% link _posts/programming/2024-06-18-python-tips-tricks.md %})
+ - [PyTorch basics]({{ site.baseurl }}{% link _posts/programming/2024-06-18-pytorch.md %})
  - Git basics
  - [SSH keys]({{ site.baseurl }}{% link _posts/programming/2024-06-17-ssh-keys.md %})
- - [Notes on HTML]({{ site.baseurl }}{% link _posts/programming/2024-06-17-html.md %})
+ - [Setting up a Math Blog]({{ site.baseurl }}{% link _posts/programming/2024-06-17-blog-setup.md %})
  - Linux basics
  - Virtual environments 
  - Docker containers  

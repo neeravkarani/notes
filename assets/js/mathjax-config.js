@@ -5,7 +5,7 @@ MathJax.Hub.Config({
       processEscapes: true
     },
     TeX: {
-      equationNumbers: { autoNumber: "AMS" },
+      equationNumbers: { autoNumber: "all" },
       extensions: ["AMSmath.js", "AMSsymbols.js"]
     }
   });
