@@ -3,7 +3,7 @@ layout: default
 title: "Matrix Calculus"
 ---
 
-<div class="jumbotron">
+<div class=".jumbotron">
 
 ## Matrix Calculus
 
