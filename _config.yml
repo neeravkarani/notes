@@ -17,11 +17,3 @@ kramdown:
   syntax_highlighter: rouge
   math_engine_opts:
     preview: true
-
-collections:
-  math_notes:
-    output: true
-    permalink: /notes/math/:name.html
-  programming_notes:
-    output: true
-    permalink: /notes/programming/:name.html
