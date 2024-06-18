@@ -11,7 +11,7 @@ Welcome! Here a list of existing and planned notes.
 
 ### Linear algebra
 - [General Notes]({{ site.baseurl }}{% link _posts/math/2024-06-17-linear-algebra.md %})
-- Matrix calculus
+- [Matrix calculus]({{ site.baseurl }}{% link _posts/math/2024-06-18-matrix-calculus.md %})
 - Positive definite matrices
 
 ### Probability
