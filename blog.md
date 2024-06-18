@@ -18,7 +18,7 @@ Welcome! Here a list of existing and planned blog posts.
  - General notes
  - Automatic differentiation
 
-</br>
+<br>
 
 ## Machine learning
 ### Dimensionality reduction
@@ -37,14 +37,14 @@ Welcome! Here a list of existing and planned blog posts.
  - Sampling methods
  - Reinforcement learning
 
-</br>
+<br>
 
 ## Deep Learning
 ### Misc
  - Normalization in deep learning
  - Randomness in deep learning
 
-</br>
+<br>
 
 ## Programming
  - [Data structures and algorithms]({{ site.baseurl }}/notes/programming/dsa.html)
@@ -56,19 +56,19 @@ Welcome! Here a list of existing and planned blog posts.
  - Virtual environments 
  - Docker containers  
 
-</br>
+<br>
 
 ## Misc
  - Useful terminology
  - Interesting places on the internet  
 
-</br>
+<br>
 
 ## Languages
  - English
  - German
 
-</br>
+<br>
 
 ## Daily progress
  - June 2024

@@ -1,6 +1,7 @@
 # Site settings
 title: "NK's blog"
 email: "nkarani31@gmail.org"
+baseurl: "/website"
 description: "Notes of things I cannot remember."
 twitter_username: nirav_karani
 github_username:  neeravkarani
