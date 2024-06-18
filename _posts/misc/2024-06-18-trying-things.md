@@ -43,6 +43,13 @@ $$\boldsymbol{A} := \begin{bmatrix}a & b \\ c & d\end{bmatrix}$$
 
 Adding an image
 ---
-<center><img src="https://github.com/neeravkarani/notes/blob/main/images/image0.png" alt="drawing" width="400"/></center>
+<figure>
+<left>
+  <img src="../../images/image0.png" alt="Description of image" width="400"/>
+  <figcaption style="text-align: left;">This is an image.</figcaption>
+</left>
+</figure>
+
+
 
 <br>
