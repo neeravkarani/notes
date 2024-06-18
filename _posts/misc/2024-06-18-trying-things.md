@@ -3,9 +3,46 @@ layout: default
 title: "Trying things"
 ---
 
-### Colored text
+
+Effect of underline 
+---
+
+<br>
+
+Colored text
+---
 
 <span style="color:#0060C6">**Definition 1:** A **probability space** is a measure space ($\Omega$, $E$, $P$) where $P(\Omega) = 1$ where </span>
 1. <span style="color:#0060C6">The set $\Omega$, is called the **sample space**.</span>
 2. <span style="color:#0060C6">The $\sigma$-algebra over $\Omega$, denoted $E$, called the set of **events**.</span>
 3. <span style="color:#0060C6">The measure $P$ for the measureable space $(\Omega, E)$ is the **probability measure**.</span>
+
+<br>
+
+Coloured equation 
+---
+<center><span style="color:#0060C6">$$\begin{equation} \mu : \mathcal{F} \rightarrow \mathbb{R} \end{equation} $$</span></center>
+<center><span style="color:#0060C6">$$ \mu : \mathcal{F} \rightarrow \mathbb{R} $$</span></center>
+<center><span style="color:#0060C6">$\mu : \mathcal{F} \rightarrow \mathbb{R}$</span></center>
+
+<br>
+
+Cases in an equation
+---
+
+$$\text{Det}(\boldsymbol{A}) := \begin{cases} a_{1,1}a_{2,2} - a_{1,2}a_{2,1} & \text{if $m = 2$} \\ \sum_{i=1}^m (-1)^{i+1} a_{i,1} \text{Det}(\boldsymbol{A}_{-i, -1}) & \text{if $m > 2$}\end{cases}$$
+
+<br>
+
+Matrix
+---
+
+$$\boldsymbol{A} := \begin{bmatrix}a & b \\ c & d\end{bmatrix}$$
+
+<br>
+
+Adding an image
+---
+<center><img src="https://raw.githubusercontent.com/neeravkarani/neeravkarani.github.io/notes/main/images/image0.png" alt="drawing" width="400"/></center>
+
+<br>
