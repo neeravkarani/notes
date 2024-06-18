@@ -159,6 +159,7 @@ $$ \begin{equation}
 ### Representation of a matrix under a new basis
 Given a matrix $N \in \mathcal{R}^{n \times n}$ representing a linear transformation in a certain basis, and an invertible matrix $P \in \mathcal{R}^{n \times n}$ whose columns form a new basis, then $M = P N P^{-1}$ represents the same linear transformation under the new basis. $M$ and $N$ are said to be related by a similarity transformation. As $M$ and $N$ represent the same linear transformation, they share the same determinant, trace, rank and eigenvalues. 
 
+<br>
 
 ## 6. Eigen Decomposition
 
