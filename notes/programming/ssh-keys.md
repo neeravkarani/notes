@@ -1,0 +1,39 @@
+---
+layout: default
+title: "SSH Keys"
+---
+
+### A. Using SSH-Keys with GitHub
+
+Follow the following steps for using SSH-Keys to interact with your GitHub account from your local computer.
+
+1. **Create new SSH keys**: Create a new pair of SSH keys via ssh-keygen -t ed25519 -C "your_email". You will be asked the location where you would like the files to be saved. You can enter your desired location and filenames: "desired_path/ssh_keys_nkarani31_github". You will also have the option of setting a passphrase for additional security. After this step, the files 'ssh_keys_nkarani31_github' and 'ssh_keys_nkarani31_github.pub' will be created as the private and public keys, respectively.
+
+2. **Add your public SSH key to GitHub account**: Log into your GitHub account and go to Settings > SSH and GPG keys. Click "New SSH key" or "Add SSH key". Give the key a descriptive title like "Personal laptop". Paste the public key into the "Key" field. Click "Add SSH key"** to save it. If prompted, confirm access to your GitHub account.
+
+3. **Set the location of your private keys in the local git config file** via 'git config --local core.sshcommand "ssh -vvvv -i path_to_private_key'.
+
+4. **Change the remote url from https to git** via 'git remote set-url origin git@github.com:username/repo.git'. Verify that the url is set correctly via 'git remote -v'.
+
+
+After these steps, you should be able to say 'git push origin main' to push your local commits to GitHub.
+
+<br>
+
+### B. Additional points
+
+1. **ssh-add**: In case you have used a passphrase, but do not wish to enter it every time, you can use **ssh-add** to enter the passphrase only once per session. **ssh-add** provides a way to securely cache and reuse your SSH private key passphrases in memory via the ssh-agent, enabling passwordless SSH authentication until the agent is terminated.
+
+2. **Git config levels and files**
+    
+    a. **local**: The local config file contains settings that *only apply within that specific repository*, and are stored in a file that can be found in the repo's .git directory: '.git/config'.
+    
+    b. **global**: The global config file contains settings that apply *to your user account on that machine*, and are stored in the file '~/.gitconfig' in your home directory.
+
+    c. **system**: The system config file contains settings that apply *to all users on that machine*, and are stored in the file '/etc/gitconfig'.
+
+<br>
+
+### References
+- [Atlassian tutorial on using SSH Keys with Git](https://www.atlassian.com/git/tutorials/git-ssh)  
+- [Atlassian tutorial on Git configuration](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
