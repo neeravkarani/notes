@@ -5,11 +5,4 @@ title: Blog
 
 # Blog
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+Welcome to my website. Check out [this example post]({{ site.baseurl }}{% post_url 2024-06-17-dsa %}).
