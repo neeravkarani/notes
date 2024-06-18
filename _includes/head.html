@@ -1,9 +1,26 @@
 <!-- Meta tags, CSS links, and other head elements can go here -->
 <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
 
+<!-- Configure MathJax -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    },
+    svg: {
+      fontCache: 'global'
+    },
+    TeX: {
+      equationNumbers: { autoNumber: "all" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"]
+    }
+  };
+</script>
+<!-- <script src="{{ '/assets/js/mathjax-config.js' | relative_url }}" type="text/javascript"></script> -->
+
 <!-- Include MathJax -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-<script src="{{ '/assets/js/mathjax-config.js' | relative_url }}" type="text/javascript"></script>
