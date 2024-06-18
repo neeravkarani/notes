@@ -114,12 +114,10 @@ li {font-size: 12pt;}
 }
 
 .content{
-    max-width: 900px;
     padding: 20px 0px 0px 0px;
     margin: 0px auto;
     text-align: justify;
     font-size: 12pt;
-    background-color: #ffdbb5;
 }
 
 .row {

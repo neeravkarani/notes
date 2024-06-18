@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+classes: jumbotron
 ---
 
 Welcome! Here a list of existing and planned notes.
