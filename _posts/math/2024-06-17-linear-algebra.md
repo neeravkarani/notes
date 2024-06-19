@@ -242,7 +242,7 @@ Some geometric transformations such as scalings, rotations, reflections, and ort
 ### 9.4 Markov chains
 A random process is a model of a system that undergoes transitions between states over time. The state of the system at time $t+1$, denoted by $X_{t+1}$, depends on the previous states. This relationship can be encoded in the transition probability distribution, $p_{X_{t+1}|X_t, X_{t-1},\cdots X_0}(x_{t+1}|x_t, x_{t-1},\cdots x_0)$. In a markov process or a markov chain, this transition probability depends only on the previous state. Thus, $p_{X_{t+1}|X_t, X_{t-1},\cdots X_0}(x_{t+1}|x_t, x_{t-1},\cdots x_0)$ = $p_{X_{t+1}|X_t}(x_{t+1}|x_t)$.
 
-If the state of the system can take on $n$ discrete values, the transition probability <div> $p_{X_{t+1}|X_t}(x_{t+1}|x_t)$ </div> can be represented by a $n \times n$ matrix, $M$. Given an initial state $X_0$, we can obtain the distribution over the possible states at $t=1$ by computing the matrix product $MX_0$. Similarly, the distribution over the possible states at $t=2$ would be $MMX_0$, and so on.
+If the state of the system can take on $n$ discrete values, the transition probability $p_{X_{t+1}\|X_t}(x_{t+1}\|x_t)$ can be represented by a $n \times n$ matrix, $M$. Given an initial state $X_0$, we can obtain the distribution over the possible states at $t=1$ by computing the matrix product $MX_0$. Similarly, the distribution over the possible states at $t=2$ would be $MMX_0$, and so on.
 
 If the evolution of a Markov chain continues for long enough, the probability vector will converge to a stable distribution vector that remains unchanged when multiplied by $M$. This would be the eigenvector of $M$ with eigenvalue of $1$.
 
