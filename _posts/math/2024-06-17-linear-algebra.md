@@ -117,7 +117,10 @@ T \boldsymbol{e_1} & T \boldsymbol{e_2} & \cdots & T \boldsymbol{e_n} \\
 \label{eqn_linear3}
 \end{equation}$$
 
-Eqn. \ref{eqn_linear3} allows us to readily specify matrices for certain simple transformations. For instance, in order to rotate $2$d space counter-clockwise by 90 degrees, the first basis vector $[1 \hspace{5pt} 0] ^ {\text{T}}$ should be mapped to $[0 \hspace{5pt} 1] ^ {\text{T}}$, and the second basis vector $[0 \hspace{5pt} 1] ^ {\text{T}}$ should be mapped to $[-1 \hspace{5pt} 0] ^ {\text{T}}$. Thus, the matrix representing this transformation is $\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$. Similarly, the matrix that represents isotropic scaling by a factor of $2$ is $\begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix}$.
+Eqn. \ref{eqn_linear3} allows us to readily specify matrices for certain simple transformations. For instance, in order to rotate $2$d space counter-clockwise by 90 degrees, the first basis vector $[1 \hspace{5pt} 0] ^ {\text{T}}$ should be mapped to $[0 \hspace{5pt} 1] ^ {\text{T}}$, and the second basis vector $[0 \hspace{5pt} 1] ^ {\text{T}}$ should be mapped to $[-1 \hspace{5pt} 0] ^ {\text{T}}$. Thus, the matrix representing this transformation is
+$\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$.
+Similarly, the matrix that represents isotropic scaling by a factor of $2$ is
+$\begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix}$.
 
  
 <br>
@@ -219,7 +222,19 @@ $$ \begin{equation} A = U \Sigma V^{T} \end{equation} $$
 A graph is defined as pair of sets $G = (V, E)$, where $V$ is the set of vertices and $E$ is the set of edges in the graph $G$. A graph with $n$ vertices can also be represented by a $n \times n$ adjacency matrix $A$ where $a_{ij} = 1$ if an edge exists between vertices $i$ and $j$, and $0$ otherwise. Amazingly, doing matrix algebra on $A$ can help us answer questions about connectivity of the graph. For instance, the number of ways to go from $i$ to $j$ in exactly $m$ steps is given by $A^m (i,j)$.
 
 ### 9.2 Least square approximate solutions
-An equation of the form $A\boldsymbol{x} = \boldsymbol{y}$ could have exactly one solution (if $A$ is invertible), infinitely many solutions (if $A$ has a null space), or no solution at all (if $\boldsymbol{y}$ is not in the column space of $A$). In the third case, it is of interest to find an approximate solution $\boldsymbol{x}^{*}$ such that the vector $A\boldsymbol{x}^{*}$ is as close as possible to $\boldsymbol{y}$. This solution is given by $\boldsymbol{x}^{*} = (A^TA)^{-1}A^T\boldsymbol{y}$, where $(A^TA)^{-1}$ is known as the Moore–Penrose pseudoinverse of $A$.
+An equation of the form
+$A\boldsymbol{x} = \boldsymbol{y}$
+could have exactly one solution (if $A$ is invertible), infinitely many solutions (if $A$ has a null space), or no solution at all
+(if $\boldsymbol{y}$ is not in the column space of $A$).
+In the third case, it is of interest to find an approximate solution
+$\boldsymbol{x}^{*}$
+such that the vector
+$A\boldsymbol{x}^{*}$
+is as close as possible to
+$\boldsymbol{y}$.
+This solution is given by Eqn. \ref{eqn_pseudo_inv}, where $(A^TA)^{-1}$ is known as the **Moore–Penrose pseudoinverse** of $A$.
+
+$$ \begin{equation} \boldsymbol{x}^{*} = (A^TA)^{-1}A^T\boldsymbol{y} \label{eqn_pseudo_inv} \end{equation} $$
 
 ### 9.3 Computer graphics
 Some geometric transformations such as scalings, rotations, reflections, and orthogonal projections can be represented as matrix-vector products. In order to represent translations and perspective projections via matrix-vector products too, we introduce homogeneous coordinates. A vector $\boldsymbol{x} = (x_1, x_2, x_3) \in \mathcal{R}^3$ corresponds to $\boldsymbol{X} = (x_1, x_2, x_3, 1) \in \mathcal{R}^4$ in homogeneous coordinates.
@@ -227,7 +242,7 @@ Some geometric transformations such as scalings, rotations, reflections, and ort
 ### 9.4 Markov chains
 A random process is a model of a system that undergoes transitions between states over time. The state of the system at time $t+1$, denoted by $X_{t+1}$, depends on the previous states. This relationship can be encoded in the transition probability distribution, $p_{X_{t+1}|X_t, X_{t-1},\cdots X_0}(x_{t+1}|x_t, x_{t-1},\cdots x_0)$. In a markov process or a markov chain, this transition probability depends only on the previous state. Thus, $p_{X_{t+1}|X_t, X_{t-1},\cdots X_0}(x_{t+1}|x_t, x_{t-1},\cdots x_0)$ = $p_{X_{t+1}|X_t}(x_{t+1}|x_t)$.
 
-If the state of the system can take on $n$ discrete values, the transition probability $p_{X_{t+1}|X_t}(x_{t+1}|x_t)$ can be represented by a $n \times n$ matrix, $M$. Given an initial state $X_0$, we can obtain the distribution over the possible states at $t=1$ by computing the matrix product $MX_0$. Similarly, the distribution over the possible states at $t=2$ would be $MMX_0$, and so on.
+If the state of the system can take on $n$ discrete values, the transition probability <div> $p_{X_{t+1}|X_t}(x_{t+1}|x_t)$ </div> can be represented by a $n \times n$ matrix, $M$. Given an initial state $X_0$, we can obtain the distribution over the possible states at $t=1$ by computing the matrix product $MX_0$. Similarly, the distribution over the possible states at $t=2$ would be $MMX_0$, and so on.
 
 If the evolution of a Markov chain continues for long enough, the probability vector will converge to a stable distribution vector that remains unchanged when multiplied by $M$. This would be the eigenvector of $M$ with eigenvalue of $1$.
 
