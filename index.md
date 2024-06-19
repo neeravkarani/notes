@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 Welcome! Here a list of existing and planned notes.
