@@ -177,7 +177,7 @@ $$ \begin{equation} A = Q \Lambda Q^{-1} \label{eqn_eigen} \end{equation}$$
 
 The matrices $A$ and $\Lambda$ are similar matrices, with $A$ represented in the standard basis and $\Lambda$ represented in the eigenbasis. $\Lambda$ is a diagonal matrix, with its diagonal entries being the eigenvalues of $A$.
 
-Finding eigenvalues and eigenvectors of $A$: Given $A$, its eigenvalues can be determined as the roots of its characteristic polynomial $\text{det}(A - \lambda I) = 0$. Then, we can find the eigenvectors corresponding to the eigenvalue $\lambda_i$ by computing the null space of the matrix $A - \lambda_i I$, that is, by finding vectors $\boldsymbol{e}_{\lambda_i}$ that the matrix $A - \lambda_i I$ maps to the zero vector, that is, by solving the system of equations $(A - \lambda_i I) \boldsymbol{e}_{\lambda_i} = \boldsymbol(0)$.
+Finding eigenvalues and eigenvectors of $A$: Given $A$, its eigenvalues can be determined as the roots of its characteristic polynomial $\text{det}(A - \lambda I) = 0$. Then, we can find the eigenvectors corresponding to the eigenvalue $\lambda_i$ by computing the null space of the matrix $A - \lambda_i I$, that is, by finding vectors $\boldsymbol{e}\_{\lambda\_i}$ that the matrix $A - \lambda\_i I$ maps to the zero vector, that is, by solving the system of equations $(A - \lambda\_i I) \boldsymbol{e}\_{\lambda\_i} = \boldsymbol(0)$.
 
 ### Existence of eigendecomposition
 As rectangular matrices map vectors between two spaces of differing dimensions, they cannot simply scale an input vector. Thus, the eigendecomposition is not applicable to such matrices. Even for square matrices, some of them have repeated eigenvalues, and the number of eigenvectors is less than the dimensionality of the vector space. Such square matrices do not have an eigendecomposition. If a $n \times n$ square matrix that has $n$ eigenvectors, it is said to be diagonalizable, and its eigendecomposition is given by Eqn. \ref{eqn_eigen}.
@@ -232,9 +232,7 @@ such that the vector
 $A\boldsymbol{x}^\*$
 is as close as possible to
 $\boldsymbol{y}$.
-This solution is given by Eqn. \ref{eqn_pseudo_inv}, where $(A^TA)^{-1}$ is known as the **Moore–Penrose pseudoinverse** of $A$.
-
-$$ \begin{equation} \boldsymbol{x}^\* = (A^TA)^{-1}A^T\boldsymbol{y} \label{eqn_pseudo_inv} \end{equation} $$
+This solution is given by $\boldsymbol{x}^\* = (A^TA)^{-1}A^T\boldsymbol{y}$, where $(A^TA)^{-1}$ is known as the **Moore–Penrose pseudoinverse** of $A$.
 
 ### 9.3 Computer graphics
 Some geometric transformations such as scalings, rotations, reflections, and orthogonal projections can be represented as matrix-vector products. In order to represent translations and perspective projections via matrix-vector products too, we introduce homogeneous coordinates. A vector $\boldsymbol{x} = (x_1, x_2, x_3) \in \mathcal{R}^3$ corresponds to $\boldsymbol{X} = (x_1, x_2, x_3, 1) \in \mathcal{R}^4$ in homogeneous coordinates.
