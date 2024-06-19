@@ -204,7 +204,8 @@ A matrix $P \in \mathcal{R}^{n \times n}$ is positive semi-definite if $\boldsym
 ## 8. Singular Value Decomposition
 The SVD generalizes the notion of eigenvalues and eigenvectors to non-square matrices. Any non-square matrix $A \in \mathcal{R}^{m \times n}$ can be decomposed as follows, where $U \in \mathcal{R}^{m \times m}$ and $V \in \mathcal{R}^{n \times n}$ are orthogonal matrices and $\Sigma \in \mathcal{R}^{m \times n}$ is a diagonal matrix. Geometrically, the orthogonal matrices $U$ and $V$ represent rotations and the diagonal matrix $\Sigma$ represents scaling.
 
-$$ \begin{equation} A = U \Sigma V^{T} \end{equation} $$ 
+<!-- $$ \begin{equation} A = U \Sigma V^{T} \end{equation} $$  -->
+$$ A = U \Sigma V^{T}$$ 
 
 [This](https://gregorygundersen.com/blog/2018/12/10/svd/) is an excellent blog post to build intuition about the SVD beyond the mere statement of its existence that we provided here. Further, [this](https://jeremykun.wordpress.com/2016/04/18/singular-value-decomposition-part-1-perspectives-on-linear-algebra/) blog post is a nice take on what it means to do SVD of a data matrix.
 
