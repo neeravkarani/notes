@@ -11,6 +11,7 @@ title: "Interesting Places on the Internet"
  - [Victor Powell & Lewis Lehe](https://setosa.io/#/)
  - [Matthew Bernstein](https://mbernste.github.io/)
  - [Lilian Weng](https://lilianweng.github.io/) 
+ - [Christian Perone](http://blog.christianperone.com/)
  - [ICLR 2024 blogpost track](https://iclr-blogposts.github.io/2024/about/#accepted-posts)
 
 <br>
