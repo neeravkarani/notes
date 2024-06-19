@@ -104,6 +104,7 @@ $$ \begin{equation}
 \end{bmatrix}
 \begin{bmatrix} | \\ \boldsymbol{e_i} \\ | \end{bmatrix} =
 \begin{bmatrix} | \\ T \boldsymbol{e_i} \\ | \end{bmatrix}
+\label{eqn_linear2}
 \end{equation}$$
 
 
@@ -113,9 +114,10 @@ $$ \begin{equation} A_T =
 T \boldsymbol{e_1} & T \boldsymbol{e_2} & \cdots & T \boldsymbol{e_n} \\
 | & | & & |
 \end{bmatrix}
+\label{eqn_linear3}
 \end{equation}$$
 
-Eqn. 5 allows us to readily specify matrices for certain simple transformations. For instance, in order to rotate $2$d space counter-clockwise by 90 degrees, the first basis vector $[1 \hspace{5pt} 0] ^ {\text{T}}$ should be mapped to $[0 \hspace{5pt} 1] ^ {\text{T}}$, and the second basis vector $[0 \hspace{5pt} 1] ^ {\text{T}}$ should be mapped to $[-1 \hspace{5pt} 0] ^ {\text{T}}$. Thus, the matrix representing this transformation is $\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$. Similarly, the matrix that represents isotropic scaling by a factor of $2$ is $\begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix}$.
+Eqn. \ref{eqn_linear3} allows us to readily specify matrices for certain simple transformations. For instance, in order to rotate $2$d space counter-clockwise by 90 degrees, the first basis vector $[1 \hspace{5pt} 0] ^ {\text{T}}$ should be mapped to $[0 \hspace{5pt} 1] ^ {\text{T}}$, and the second basis vector $[0 \hspace{5pt} 1] ^ {\text{T}}$ should be mapped to $[-1 \hspace{5pt} 0] ^ {\text{T}}$. Thus, the matrix representing this transformation is $\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$. Similarly, the matrix that represents isotropic scaling by a factor of $2$ is $\begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix}$.
 
  
 <br>
@@ -132,7 +134,7 @@ A related concept is that of the **condition number** of a matrix, which indicat
 
 ## 5. Changing Bases
 
-Eqn. 5 highlights the fact that the same linear transformation T can be represented by a different matrix by choosing a different basis of the input or the output vector space. Unless specified otherwise, we generally assume the use of the standard bases. That said, let's talk a little about how do representations of vectors and matrices change when the basis is changed. This notion will also directly lead us to the idea of eigendecomposition, where we search for a basis such that the transformation with respect to that basis has a nicer representation.
+Eqn. \ref{eqn_linear3} highlights the fact that the same linear transformation T can be represented by a different matrix by choosing a different basis of the input or the output vector space. Unless specified otherwise, we generally assume the use of the standard bases. That said, let's talk a little about how do representations of vectors and matrices change when the basis is changed. This notion will also directly lead us to the idea of eigendecomposition, where we search for a basis such that the transformation with respect to that basis has a nicer representation.
 
 ### Basis
 A set of vectors $\{\boldsymbol{v_1}, \boldsymbol{v_2}, \cdots \boldsymbol{v_n}\}$ is known to be a basis of a vector space $\mathcal{V}$ if it linearly independent and it spans $\mathcal{V}$. The standard basis of $\mathcal{R}^n$ (used above in Eqn. \ref{eqn_linear2} and Eqn. \ref{eqn_linear3}) is denoted by $\{\boldsymbol{e_1}, \boldsymbol{e_2}, \cdots \boldsymbol{e_n}\}$ where $\boldsymbol{e_i} \in \mathcal{R}^n$ is a one-hot vector with its $i^{th}$ component equal to $1$.
@@ -168,7 +170,7 @@ Eigenvectors of a matrix are special input vectors which undergo simple scaling 
 
 Such a basis is said to be "natural basis" for the matrix. Each matrix has its own (in German, eigene) natural basis. Therefore, the vectors forming the basis are called as the eigenvectors of the matrix. The corresponding scaling factors are known as the eigenvalues. The eigendecomposition is a change-of-basis operation that expresses a matrix $A$ with respect to its eigenbasis:
 
-$$ \begin{equation} A = Q \Lambda Q^{-1} \end{equation} $$ 
+$$ \begin{equation} A = Q \Lambda Q^{-1} \label{eqn_eigen} \end{equation}$$ 
 
 The matrices $A$ and $\Lambda$ are similar matrices, with $A$ represented in the standard basis and $\Lambda$ represented in the eigenbasis. $\Lambda$ is a diagonal matrix, with its diagonal entries being the eigenvalues of $A$.
 
