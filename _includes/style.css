@@ -1,0 +1,25 @@
+body {
+    background-color: yellow;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    color: #e20b0b; /* Dark gray font color */
+    margin: 100px; /* Add some spacing around the content */
+}
+  
+table {
+    border-collapse: collapse; /* Merge table borders */
+    width: 100%; /* Make the table full-width */
+}
+  
+th, td {
+    padding: 8px; /* Add some padding to table cells */
+    text-align: left; /* Left-align text in table cells */
+    border-bottom: 1px solid #ddd; /* Add a bottom border to table rows */
+}
+  
+th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+}
+  
