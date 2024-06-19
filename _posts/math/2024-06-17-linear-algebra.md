@@ -74,6 +74,7 @@ $$ \begin{equation} \boldsymbol{y} =
 x_1 \\ x_2 \\ \vdots \\ x_n
 \end{bmatrix} =
 \sum_{i=1}^n  x_i \boldsymbol{a_i}
+\label{eqn_linear}
 \end{equation}$$
 
 Matrix-vector products play an important role in linear algebra because of their relation to linear transformations. Specifically, multiplication with a matrix computes a linear transformation $T_A: \mathcal{R}^n \rightarrow \mathcal{R}^m$ that takes $n$-vectors as inputs and produces $m$-vectors as outputs. Instead of writing $\boldsymbol{y} = T_A(\boldsymbol{x})$, we write $\boldsymbol{y} = A\boldsymbol{x}$, and say that $T_A$ is represented by the matrix $A$.
