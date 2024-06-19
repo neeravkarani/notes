@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Diffusion Models"
 ---
-
-# Diffusion models
 
 ### References
  - Song et al. "Generative modeling by estimating gradients of the data distribution" NeurIPS 2019 [link](https://proceedings.neurips.cc/paper_files/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf).

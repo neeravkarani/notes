@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Matrix Calculus"
 ---
-
-## Matrix Calculus
 
 #### References
  - Zico Kolter's review of linear algebra [link](https://www.cs.cmu.edu/~zkolter/course/linalg/linalg_notes.pdf)

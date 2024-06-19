@@ -1,9 +1,7 @@
 ---
-layout: default
-title: "Linear Algebra Notes"
+layout: post
+title: "Notes on Linear Algebra"
 ---
-
-## Notes on linear algebra
 
 Linear algebra is the study of vectors and matrices.
 

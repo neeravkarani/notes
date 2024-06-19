@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Python tips and tricks"
 ---
-
-# Python tips and tricks
 
 ### [1] Modules v/s Packages v/s Distributions
 

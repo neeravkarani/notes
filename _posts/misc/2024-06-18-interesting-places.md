@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Interesting Places on the Internet"
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Setting up a Math blog"
+layout: post
+title: "Setting up a math blog"
 ---
 
 ### Glossary
