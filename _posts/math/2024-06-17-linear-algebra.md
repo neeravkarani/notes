@@ -227,14 +227,14 @@ $A\boldsymbol{x} = \boldsymbol{y}$
 could have exactly one solution (if $A$ is invertible), infinitely many solutions (if $A$ has a null space), or no solution at all
 (if $\boldsymbol{y}$ is not in the column space of $A$).
 In the third case, it is of interest to find an approximate solution
-$\boldsymbol{x}^{*}$
+$\boldsymbol{x}^\*$
 such that the vector
-$A\boldsymbol{x}^{*}$
+$A\boldsymbol{x}^\*$
 is as close as possible to
 $\boldsymbol{y}$.
 This solution is given by Eqn. \ref{eqn_pseudo_inv}, where $(A^TA)^{-1}$ is known as the **Moore–Penrose pseudoinverse** of $A$.
 
-$$ \begin{equation} \boldsymbol{x}^{*} = (A^TA)^{-1}A^T\boldsymbol{y} \label{eqn_pseudo_inv} \end{equation} $$
+$$ \begin{equation} \boldsymbol{x}^\* = (A^TA)^{-1}A^T\boldsymbol{y} \label{eqn_pseudo_inv} \end{equation} $$
 
 ### 9.3 Computer graphics
 Some geometric transformations such as scalings, rotations, reflections, and orthogonal projections can be represented as matrix-vector products. In order to represent translations and perspective projections via matrix-vector products too, we introduce homogeneous coordinates. A vector $\boldsymbol{x} = (x_1, x_2, x_3) \in \mathcal{R}^3$ corresponds to $\boldsymbol{X} = (x_1, x_2, x_3, 1) \in \mathcal{R}^4$ in homogeneous coordinates.
