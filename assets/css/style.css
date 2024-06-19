@@ -1,3 +1,7 @@
+body {
+    background-color: yellow;
+}
+
 main {
     font-family: Arial, sans-serif;
     color: #e20b0b; /* Dark gray font color */
