@@ -7,7 +7,7 @@ github_username:  neeravkarani
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 
 highlighter: rouge
 kramdown:
