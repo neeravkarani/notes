@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-<!-- HEAD -->
+  <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +12,14 @@
     {%- include head.html -%}
   </head>
 
-<!-- BODY -->
+  <!-- HEADER -->
+  <header>
+    {% include navigation.html %}
+  </header>
+
+  <!-- BODY -->
   <body>
     <div class="wrapper">
-      
-      <!-- HEADER -->
-      <header>
-        {% include navigation.html %}
-      </header>
 
       <!-- SECTION -->
       <div class="container">
@@ -27,13 +27,13 @@
           {{ content }}
         </section>
       </div>
-
-      <!-- FOOTER -->
-      <footer>
-        {% include footer.html %}
-      </footer>
-
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
+
+  <!-- FOOTER -->
+  <footer>
+    {% include footer.html %}
+  </footer>
+  
 </html>
