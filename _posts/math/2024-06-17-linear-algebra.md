@@ -16,7 +16,7 @@ $$ \begin{equation} \boldsymbol{x} = \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n
 The operations we can perform on vectors are addition, subtraction, scaling, dot product, cross product, outer product, norm and projection.
 
 ### **Dot product / inner product**
-takes in two vectors as inputs and produces a single number: $. : \mathcal{R}^n \times \mathcal{R}^n \rightarrow \mathcal{R}$. It is computed as $\boldsymbol{x}.\boldsymbol{y} = \boldsymbol{x}^T\boldsymbol{y} = \sum_{i=1}^n x_i y_i = ||\boldsymbol{x}||_2 \: ||\boldsymbol{y}||_2 \cos{\theta}$ where $||.||_2$ denotes the L$2$ norm of the vector, and $\theta$ is the angle between the two vectors. The dot product is used for calculating vector projections, vector decompositions, and determining orthogonality.
+takes in two vectors as inputs and produces a single number: $. : \mathcal{R}^n \times \mathcal{R}^n \rightarrow \mathcal{R}$. It is computed as $\boldsymbol{x}.\boldsymbol{y} = \boldsymbol{x}^T\boldsymbol{y} = \sum\_{i=1}^n x\_i y\_i = ||\boldsymbol{x}||\_2 ||\boldsymbol{y}||\_2 \cos{\theta}$ where $||.||\_2$ denotes the L$2$ norm of the vector, and $\theta$ is the angle between the two vectors. The dot product is used for calculating vector projections, vector decompositions, and determining orthogonality.
     
 ### **Cross product / vector product**
 takes in two vectors as inputs and produces another vector: $\times : \mathcal{R}^n \times \mathcal{R}^n \rightarrow \mathcal{R}^n$. Computing the cross product requires a specific combination of multiplications and subtractions of the input vectors’ components. It is equivalent to $\boldsymbol{x} \times \boldsymbol{y} = ||\boldsymbol{x}||_2 \: ||\boldsymbol{y}||_2 \sin{\theta} \: \boldsymbol{n}$, where $\boldsymbol{n}$ is an unit vector perpendicular to the plane containing the two input vectors. Thus, the cross product is useful for determining the normal vector to a surface. Also, due to the presence of the $\sin$ term, the cross-product is $0$ if the two input vectors are parallel.
@@ -25,10 +25,10 @@ takes in two vectors as inputs and produces another vector: $\times : \mathcal{R
 takes in two vectors as inputs and produces a matrix: $\otimes: \mathcal{R}^m \times \mathcal{R}^n \rightarrow \mathcal{R}^{m \times n}$. It is computed as $\boldsymbol{x} \otimes\boldsymbol{y} = \boldsymbol{x}\boldsymbol{y}^T$, and is useful for producing rank $1$ matrices.
     
 ### The **norm** of a vector
-is a non-negative number that indicates the size of the vector. A particular norm is the euclidean norm a.k.a the L$2$ norm: $||\boldsymbol{x}||_2 = \sqrt{\sum_{i=1}^n x_i^2}$.
+is a non-negative number that indicates the size of the vector. A particular norm is the euclidean norm a.k.a the L$2$ norm: $||\boldsymbol{x}||\_2 = \sqrt{\sum\_{i=1}^n x\_i^2}$.
     
 ### **Projection** of a vector
-$\boldsymbol{x}$ onto another vector $\boldsymbol{d}$ is given by $\boldsymbol{x}.\boldsymbol{d}\frac{\boldsymbol{d}}{||\boldsymbol{d}||_2}$, where $\frac{\boldsymbol{d}}{||\boldsymbol{d}||_2}$ gives an unit vector in the direction of $\boldsymbol{d}$.
+$\boldsymbol{x}$ onto another vector $\boldsymbol{d}$ is given by $\boldsymbol{x}.\boldsymbol{d}\frac{\boldsymbol{d}}{||\boldsymbol{d}||\_2}$, where $\frac{\boldsymbol{d}}{||\boldsymbol{d}||\_2}$ gives an unit vector in the direction of $\boldsymbol{d}$.
 
 <br>
  

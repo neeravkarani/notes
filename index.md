@@ -58,7 +58,7 @@ Welcome! Here a list of existing and planned notes.
  - [Data structures and algorithms]({{ site.baseurl }}{% link _posts/programming/2024-06-17-dsa.md %})
  - [Python tips and tricks]({{ site.baseurl }}{% link _posts/programming/2024-06-18-python-tips-tricks.md %})
  - [PyTorch basics]({{ site.baseurl }}{% link _posts/programming/2024-06-18-pytorch.md %})
- - Git basics
+ - [Git basics]({{ site.baseurl }}{% link _posts/programming/2024-06-20-git-basics.md %})
  - [SSH keys]({{ site.baseurl }}{% link _posts/programming/2024-06-17-ssh-keys.md %})
  - [Setting up a Math Blog]({{ site.baseurl }}{% link _posts/programming/2024-06-17-blog-setup.md %})
  - Linux basics
