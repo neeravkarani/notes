@@ -21,6 +21,8 @@ Welcome! Here a list of existing and planned notes.
  - General notes
  - Automatic differentiation
 
+### Misc
+ - [Math reading list]({{ site.baseurl }}{% link _posts/math/2024-06-21-math-reading-list.md %})
 <br>
 
 ## Machine learning
@@ -47,11 +49,10 @@ Welcome! Here a list of existing and planned notes.
 <br>
 
 ## Deep Learning
-
-### Misc
  - Normalization in deep learning
  - Randomness in deep learning
  - [Neural Network Architectures]({{ site.baseurl }}{% link _posts/ml/2024-06-21-nn-architectures.md %}) 
+ - [ML reading list]({{ site.baseurl }}{% link _posts/ml/2024-06-21-ml-reading-list.md %})
 
 <br>
 
@@ -61,7 +62,7 @@ Welcome! Here a list of existing and planned notes.
  - [PyTorch basics]({{ site.baseurl }}{% link _posts/programming/2024-06-18-pytorch.md %})
  - [Git basics]({{ site.baseurl }}{% link _posts/programming/2024-06-20-git-basics.md %})
  - [SSH keys]({{ site.baseurl }}{% link _posts/programming/2024-06-17-ssh-keys.md %})
- - [Setting up a Math Blog]({{ site.baseurl }}{% link _posts/programming/2024-06-17-blog-setup.md %})
+ - [Setting up a math blog]({{ site.baseurl }}{% link _posts/programming/2024-06-17-blog-setup.md %})
  - Linux basics
  - Virtual environments 
  - Docker containers  
