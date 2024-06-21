@@ -12,6 +12,8 @@ title: "Interesting Places on the Internet"
  - [Matthew Bernstein](https://mbernste.github.io/)
  - [Lilian Weng](https://lilianweng.github.io/) 
  - [Christian Perone](http://blog.christianperone.com/)
+ - [Agustinus Kristiadi](https://agustinus.kristia.de/)
+ - [Boris Burkov](https://borisburkov.net/)
  - [ICLR 2024 blogpost track](https://iclr-blogposts.github.io/2024/about/#accepted-posts)
 
 <br>
