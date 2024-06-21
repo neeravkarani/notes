@@ -51,6 +51,7 @@ Welcome! Here a list of existing and planned notes.
 ### Misc
  - Normalization in deep learning
  - Randomness in deep learning
+ - [Neural Network Architectures]({{ site.baseurl }}{% link _posts/ml/2024-06-21-nn-architectures.md %}) 
 
 <br>
 
