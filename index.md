@@ -75,4 +75,5 @@ Welcome! Here a list of existing and planned notes.
  - Useful terminology
  - [Trying things]({{ site.baseurl }}{% link _posts/misc/2024-06-18-trying-things.md %})
  - [Interesting places on the internet]({{ site.baseurl }}{% link _posts/misc/2024-06-18-interesting-places.md %})
+ - [Conferences]({{ site.baseurl }}{% link _posts/misc/2024-06-24-conferences.md %})
  - [ML companies]({{ site.baseurl }}{% link _posts/misc/2024-06-19-ml-companies.md %})
