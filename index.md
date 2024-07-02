@@ -58,6 +58,12 @@ Welcome! Here a list of existing and planned notes.
 
 <br>
 
+## Computer Vision
+
+ - [Image registration]({{ site.baseurl }}{% link _posts/mi/2024-07-02-registration.md %})
+
+<br>
+
 ## Programming
  - [Data structures and algorithms]({{ site.baseurl }}{% link _posts/programming/2024-06-17-dsa.md %})
  - [Python tips and tricks]({{ site.baseurl }}{% link _posts/programming/2024-06-18-python-tips-tricks.md %})
