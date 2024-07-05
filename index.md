@@ -61,6 +61,7 @@ Welcome! Here a list of existing and planned notes.
 ## Computer Vision
 
  - [Image registration]({{ site.baseurl }}{% link _posts/mi/2024-07-02-registration.md %})
+ - [Medical imaging datasets]({{ site.baseurl }}{% link _posts/mi/2024-07-05-datasets.md %})
 
 <br>
 
